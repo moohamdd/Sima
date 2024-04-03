@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  width: 30px;
+  /* حجم الصورة بالبكسل */
+  height: auto;
+  /* للحفاظ على نسب العرض والارتفاع */
+  /* تباعد بين الصورة والنص */
+}
+
+.error-container {
+  text-align: center;
+  margin-top: 20%;
+}
+
+h1 {
+  font-size: 100px;
+  color: #dc3545;
+  /* لون العنوان */
+}
+
+p {
+  font-size: 24px;
+  color: #6c757d;
+  /* لون النص */
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  /* لون الرابط */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* تحتين الرابط عند تحويل المؤشر إليه */
+}

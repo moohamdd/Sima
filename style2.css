@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('181295-transformed.jpeg');
+  /* استبدل 'background.jpg' بمسار صورة الخلفية الخاصة بك */
+  background-size: cover;
+  /* لتغطية كامل الشاشة */
+  background-position: center;
+  /* لتوسيط الصورة */
+  background-repeat: no-repeat;
+  /* لمنع تكرار الصورة */
+}
+
+.message {
+  color: white;
+  /* لون النص */
+  font-size: 18px;
+  /* حجم الخط */
+  font-weight: bold;
+  /* سمك الخط */
+  text-align: center;
+  /* محاذاة النص في المنتصف */
+  margin-top: 20px;
+  /* التباعد العلوي */
+  background-color: black;
+}
+
+
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* للتأكد من وجود الزر في وسط الصفحة بغض النظر عن ارتفاع الصفحة */
+}
+
+.login-button {
+  background-color: #fff;
+  color: #757575;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.login-button:hover {
+  background-color: #f1f1f1;
+}
+
+.logo {
+  width: 30px;
+  /* حجم الصورة بالبكسل */
+  height: auto;
+  /* للحفاظ على نسب العرض والارتفاع */
+  margin-right: 10px;
+  /* تباعد بين الصورة والنص */
+}

